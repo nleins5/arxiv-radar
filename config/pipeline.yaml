@@ -1,0 +1,20 @@
+# Where the local lake lives. Relative paths are resolved from the project root.
+lake_root: data/lake
+
+arxiv:
+  categories: [cs.LG, cs.CV, cs.CL, cs.AI, stat.ML]
+  days_back: 14                  # how many calendar days (UTC) to look at
+  daily_sample_per_category: 60  # newest N papers per category per day
+  delay_seconds: 3.0             # arXiv asks for >= 3s between requests
+  timeout_seconds: 30
+
+spark:
+  master: "local[*]"
+  shuffle_partitions: 8
+  driver_memory: 2g
+
+analytics:
+  top_authors: 25
+  top_terms: 30
+  min_term_docs: 6          # ignore terms that appear in fewer papers than this
+  trend_window_days: 7      # "recent" vs "previous" window length

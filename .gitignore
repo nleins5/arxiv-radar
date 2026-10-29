@@ -1,0 +1,19 @@
+# local lake and Spark scratch
+data/
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoints/
+
+# python
+.venv
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# editor / os
+.DS_Store
+.idea/
+.vscode/

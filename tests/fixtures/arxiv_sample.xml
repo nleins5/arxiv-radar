@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/test-feed</id>
+  <title>arXiv Query: sample</title>
+  <updated>2026-10-27T10:00:00Z</updated>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00101v1</id>
+    <updated>2026-10-20T09:00:00Z</updated>
+    <published>2026-10-20T09:00:00Z</published>
+    <title>Sparse   Attention
+      for Long Sequences</title>
+    <summary>  We study sparse attention for long sequences.
+  The method reduces memory use on long inputs.  </summary>
+    <author><name>Mira Okafor</name></author>
+    <author><name>Jun Takeda</name></author>
+    <arxiv:comment>12 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2610.00101v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2610.00101v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00101v2</id>
+    <updated>2026-10-24T09:00:00Z</updated>
+    <published>2026-10-20T09:00:00Z</published>
+    <title>Sparse Attention for Long Sequences</title>
+    <summary>We study sparse attention for long sequences, now with a longer evaluation section.</summary>
+    <author><name>Mira Okafor</name></author>
+    <author><name>Jun Takeda</name></author>
+    <link title="pdf" href="http://arxiv.org/pdf/2610.00101v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00202v1</id>
+    <updated>2026-10-22T14:30:00Z</updated>
+    <published>2026-10-22T14:30:00Z</published>
+    <title>A Benchmark for Tabletop Robot Grasping</title>
+    <summary>We release a benchmark of 2,000 grasping scenes.</summary>
+    <author><name>Lena Brandt</name></author>
+    <arxiv:doi>10.1000/example.2026.202</arxiv:doi>
+    <arxiv:journal_ref>Example Robotics Letters 12 (2026)</arxiv:journal_ref>
+    <link title="pdf" href="http://arxiv.org/pdf/2610.00202v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00303v1</id>
+    <updated>2026-10-25T08:15:00Z</updated>
+    <published>2026-10-25T08:15:00Z</published>
+    <title>Calibrating Small Language Models</title>
+    <summary>Calibration of small language models on classification tasks.</summary>
+    <author><name>Priya Raman</name></author>
+    <author><name>Mira Okafor</name></author>
+    <author><name>Tomas Ek</name></author>
+    <link title="pdf" href="http://arxiv.org/pdf/2610.00303v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/api/errors#incorrect_id_format</id>
+    <title>Error</title>
+    <summary>incorrect id format</summary>
+  </entry>
+</feed>
